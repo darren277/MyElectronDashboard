@@ -13,6 +13,9 @@ const createWindow = () => {
     height: 600,
     webPreferences: {
       preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
+      contextIsolation: true,
+      nodeIntegration: false,
+      webSecurity: false, // disable web security temporarily
     },
   });
 
