@@ -10,4 +10,5 @@ module.exports = {
   module: {
     rules,
   },
+  devtool: 'inline-source-map', // or 'source-map' for production builds
 };
