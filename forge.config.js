@@ -45,7 +45,8 @@ module.exports = {
               },
             },
           ],
-        }
+        },
+        "port": 3005
       },
     },
     // Fuses are used to enable/disable various Electron functionality
